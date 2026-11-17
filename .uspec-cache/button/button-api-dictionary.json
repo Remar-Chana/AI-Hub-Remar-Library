@@ -1,0 +1,139 @@
+{
+  "_meta": {
+    "schemaVersion": "1",
+    "extractedAt": "2026-11-16T14:05:48.131Z",
+    "fileKey": "aoPsiTorXcI8qsIcNdvc16",
+    "nodeId": "25:1261",
+    "componentSlug": "button",
+    "source": "derivative-of-api.json",
+    "apiJsonPath": ".uspec-cache/button/button-api.json"
+  },
+  "data": {
+    "componentName": "Button",
+    "axes": [
+      {
+        "name": "variant",
+        "classification": "variant",
+        "values": [
+          {
+            "name": "default"
+          },
+          {
+            "name": "outline"
+          },
+          {
+            "name": "secondary"
+          },
+          {
+            "name": "ghost"
+          },
+          {
+            "name": "destructive"
+          },
+          {
+            "name": "link"
+          }
+        ]
+      },
+      {
+        "name": "size",
+        "classification": "variant",
+        "values": [
+          {
+            "name": "default"
+          },
+          {
+            "name": "xs"
+          },
+          {
+            "name": "sm"
+          },
+          {
+            "name": "lg"
+          },
+          {
+            "name": "icon"
+          },
+          {
+            "name": "icon-xs"
+          },
+          {
+            "name": "icon-sm"
+          },
+          {
+            "name": "icon-lg"
+          }
+        ]
+      }
+    ],
+    "booleanProps": [
+      {
+        "name": "isDisabled",
+        "default": "false"
+      },
+      {
+        "name": "isLoading",
+        "default": "false"
+      },
+      {
+        "name": "showLeadingIcon",
+        "default": "false"
+      },
+      {
+        "name": "showTrailingIcon",
+        "default": "false"
+      }
+    ],
+    "subComponents": [],
+    "referencedComponents": [],
+    "booleanRelationships": [],
+    "states": [
+      {
+        "figmaAxis": "State",
+        "figmaValue": "Default",
+        "apiAssignments": {
+          "isDisabled": false,
+          "isLoading": false
+        },
+        "runtimeCondition": "enabled"
+      },
+      {
+        "figmaAxis": "State",
+        "figmaValue": "Hover",
+        "apiAssignments": {
+          "isDisabled": false,
+          "isLoading": false
+        },
+        "runtimeCondition": "hovered"
+      },
+      {
+        "figmaAxis": "State",
+        "figmaValue": "Focus",
+        "apiAssignments": {
+          "isDisabled": false,
+          "isLoading": false
+        },
+        "runtimeCondition": "focused"
+      },
+      {
+        "figmaAxis": "State",
+        "figmaValue": "Disabled",
+        "apiAssignments": {
+          "isDisabled": true,
+          "isLoading": false
+        },
+        "runtimeCondition": "disabled"
+      },
+      {
+        "figmaAxis": "State",
+        "figmaValue": "Loading",
+        "apiAssignments": {
+          "isDisabled": false,
+          "isLoading": true
+        },
+        "runtimeCondition": "loading"
+      }
+    ],
+    "slots": []
+  }
+}

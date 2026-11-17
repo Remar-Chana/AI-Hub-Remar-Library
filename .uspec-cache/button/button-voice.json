@@ -1,0 +1,592 @@
+{
+  "_meta": {
+    "schemaVersion": "1",
+    "extractedAt": "2026-11-16T15:19:46.913102Z",
+    "fileKey": "aoPsiTorXcI8qsIcNdvc16",
+    "nodeId": "25:1261",
+    "componentSlug": "button",
+    "optionalContext": null,
+    "baseJsonPath": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/.uspec-cache/button/button-_base.json"
+  },
+  "data": {
+    "componentName": "Button",
+    "compSetNodeId": "25:1261",
+    "elements": [
+      {
+        "index": 1,
+        "id": "25:61",
+        "name": "Button",
+        "nodeType": "COMPONENT",
+        "visible": true,
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 36
+        },
+        "isFocusStop": true
+      },
+      {
+        "index": 2,
+        "id": "25:62",
+        "name": "Leading icon",
+        "nodeType": "VECTOR",
+        "visible": false,
+        "bbox": {
+          "x": 32,
+          "y": 10,
+          "w": 16,
+          "h": 16
+        },
+        "isFocusStop": false
+      },
+      {
+        "index": 3,
+        "id": "25:63",
+        "name": "Loading spinner",
+        "nodeType": "ELLIPSE",
+        "visible": false,
+        "bbox": {
+          "x": 32,
+          "y": 10,
+          "w": 16,
+          "h": 16
+        },
+        "isFocusStop": false
+      },
+      {
+        "index": 4,
+        "id": "25:64",
+        "name": "Label",
+        "nodeType": "TEXT",
+        "visible": true,
+        "bbox": {
+          "x": 21,
+          "y": 10,
+          "w": 38,
+          "h": 16
+        },
+        "isFocusStop": false
+      },
+      {
+        "index": 5,
+        "id": "25:65",
+        "name": "Trailing icon",
+        "nodeType": "VECTOR",
+        "visible": false,
+        "bbox": {
+          "x": 54,
+          "y": 10,
+          "w": 16,
+          "h": 16
+        },
+        "isFocusStop": false
+      }
+    ],
+    "variantAxes": [
+      {
+        "name": "Variant",
+        "options": [
+          "default",
+          "outline",
+          "secondary",
+          "ghost",
+          "destructive",
+          "link"
+        ],
+        "defaultValue": "default"
+      },
+      {
+        "name": "Size",
+        "options": [
+          "default",
+          "xs",
+          "sm",
+          "lg",
+          "icon",
+          "icon-xs",
+          "icon-sm",
+          "icon-lg"
+        ],
+        "defaultValue": "default"
+      },
+      {
+        "name": "State",
+        "options": [
+          "Default",
+          "Hover",
+          "Focus",
+          "Disabled",
+          "Loading"
+        ],
+        "defaultValue": "Default"
+      }
+    ],
+    "guidelines": "- The visible label merges into one native Button focus stop; the label and icons are not separate stops.\n- Default, Hover, and Focus have the same accessibility semantics and are grouped as enabled.\n- Disabled removes the control from keyboard focus order; expose its disabled state using the platform-native mechanism.\n- Loading keeps one button stop and announces progress as a state; never expose the spinner as a separate control.\n- Keep leading and trailing icons decorative because the API provides no separate accessible name for them.\n- Keep the accessible name concise and action-focused; do not duplicate visible text with a second label.",
+    "states": [
+      {
+        "state": "enabled",
+        "description": "Groups Figma Default, Hover, and Focus; these visual variants have the same screen reader semantics. The preview uses the Default variant.",
+        "variantProps": {
+          "Variant": "default",
+          "Size": "default",
+          "State": "Default"
+        },
+        "sections": [
+          {
+            "title": "VoiceOver (iOS)",
+            "tables": [
+              {
+                "focusOrderIndex": 1,
+                "name": "Button",
+                "announcement": "\"Button, button\"",
+                "layerName": "Button",
+                "properties": [
+                  {
+                    "property": "accessibilityLabel",
+                    "value": "Button",
+                    "notes": "The visible button text supplies the accessible name."
+                  },
+                  {
+                    "property": "accessibilityTraits",
+                    "value": ".isButton",
+                    "notes": "Expose the native button role."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not expose the visible label as a second focus stop; it is the button name."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not announce the leading or trailing decorative icon; hide both from accessibility."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "TalkBack (Android)",
+            "tables": [
+              {
+                "focusOrderIndex": 1,
+                "name": "Button",
+                "announcement": "\"Button, button\"",
+                "layerName": "Button",
+                "properties": [
+                  {
+                    "property": "text",
+                    "value": "Button",
+                    "notes": "Use the visible button text as the accessible name."
+                  },
+                  {
+                    "property": "role",
+                    "value": "Role.Button",
+                    "notes": "Preserve the native button role."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not add a duplicate contentDescription; the visible text already names the button."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not announce the leading or trailing decorative icon; mark them importantForAccessibility=no."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "ARIA (Web)",
+            "tables": [
+              {
+                "focusOrderIndex": 1,
+                "name": "Button",
+                "announcement": "\"Button, button\"",
+                "layerName": "Button",
+                "properties": [
+                  {
+                    "property": "element",
+                    "value": "<button>",
+                    "notes": "Use the native HTML button element."
+                  },
+                  {
+                    "property": "textContent",
+                    "value": "Button",
+                    "notes": "Visible button text is the accessible name."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not add a duplicate aria-label when visible text supplies the name."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not announce the leading or trailing decorative icon; set aria-hidden=true."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "state": "disabled",
+        "description": "Disabled button: zero focus stops; keep all three platform sections empty of focus-stop tables. VoiceOver (iOS): mark the control with the .notEnabled trait. TalkBack (Android): expose disabled() (or isEnabled=false for Views). ARIA (Web): prefer a native <button disabled>; for a custom button, expose aria-disabled=\"true\" and suppress activation.",
+        "variantProps": {
+          "Variant": "default",
+          "Size": "default",
+          "State": "Disabled"
+        },
+        "sections": [
+          {
+            "title": "VoiceOver (iOS)",
+            "tables": []
+          },
+          {
+            "title": "TalkBack (Android)",
+            "tables": []
+          },
+          {
+            "title": "ARIA (Web)",
+            "tables": []
+          }
+        ]
+      },
+      {
+        "state": "loading",
+        "description": "The loading indicator is decorative and remains part of the button; expose busy/loading through the button state without adding a focus stop.",
+        "variantProps": {
+          "Variant": "default",
+          "Size": "default",
+          "State": "Loading"
+        },
+        "sections": [
+          {
+            "title": "VoiceOver (iOS)",
+            "tables": [
+              {
+                "focusOrderIndex": 1,
+                "name": "Button",
+                "announcement": "\"Button, button, loading\"",
+                "layerName": "Button",
+                "properties": [
+                  {
+                    "property": "accessibilityLabel",
+                    "value": "Button",
+                    "notes": "Keep the action name stable while loading."
+                  },
+                  {
+                    "property": "accessibilityTraits",
+                    "value": ".isButton",
+                    "notes": "Preserve the button role."
+                  },
+                  {
+                    "property": "accessibilityValue",
+                    "value": "Loading",
+                    "notes": "Expose progress as the button value."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not expose the visible label as a second focus stop; it is the button name."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not announce the spinner as a separate element; communicate progress through the button state."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not announce the leading or trailing decorative icon; hide both from accessibility."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "TalkBack (Android)",
+            "tables": [
+              {
+                "focusOrderIndex": 1,
+                "name": "Button",
+                "announcement": "\"Button, button, loading\"",
+                "layerName": "Button",
+                "properties": [
+                  {
+                    "property": "text",
+                    "value": "Button",
+                    "notes": "Use the visible button text as the accessible name."
+                  },
+                  {
+                    "property": "role",
+                    "value": "Role.Button",
+                    "notes": "Preserve the button role."
+                  },
+                  {
+                    "property": "stateDescription",
+                    "value": "Loading",
+                    "notes": "Announce progress as state, not as a new focus stop."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not add a duplicate contentDescription; the visible text already names the button."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not announce the spinner as a separate element; communicate progress through stateDescription."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not announce the leading or trailing decorative icon; mark them importantForAccessibility=no."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "ARIA (Web)",
+            "tables": [
+              {
+                "focusOrderIndex": 1,
+                "name": "Button",
+                "announcement": "\"Button, button, loading\"",
+                "layerName": "Button",
+                "properties": [
+                  {
+                    "property": "element",
+                    "value": "<button>",
+                    "notes": "Use the native HTML button element."
+                  },
+                  {
+                    "property": "textContent",
+                    "value": "Button",
+                    "notes": "Visible button text is the accessible name."
+                  },
+                  {
+                    "property": "aria-busy",
+                    "value": "true",
+                    "notes": "Expose the in-progress state on the button."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not add a duplicate aria-label when visible text supplies the name."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not focus or announce the spinner separately; aria-busy communicates progress."
+                  },
+                  {
+                    "property": "Do NOT",
+                    "value": "–",
+                    "notes": "Do not announce the leading or trailing decorative icon; set aria-hidden=true."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "_deltaExtractions": [],
+    "_dictionaryUnavailable": false,
+    "_extractionArtifacts": {
+      "compSetNodeId": "25:1261",
+      "variantAxes": [
+        {
+          "name": "Variant",
+          "options": [
+            "default",
+            "outline",
+            "secondary",
+            "ghost",
+            "destructive",
+            "link"
+          ],
+          "defaultValue": "default"
+        },
+        {
+          "name": "Size",
+          "options": [
+            "default",
+            "xs",
+            "sm",
+            "lg",
+            "icon",
+            "icon-xs",
+            "icon-sm",
+            "icon-lg"
+          ],
+          "defaultValue": "default"
+        },
+        {
+          "name": "State",
+          "options": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Disabled",
+            "Loading"
+          ],
+          "defaultValue": "Default"
+        }
+      ],
+      "booleanDefs": {
+        "Leading icon#25:241": false,
+        "Trailing icon#25:482": false
+      },
+      "elementsSummary": [
+        {
+          "index": 1,
+          "name": "Button",
+          "nodeType": "COMPONENT",
+          "visible": true
+        },
+        {
+          "index": 2,
+          "name": "Leading icon",
+          "nodeType": "VECTOR",
+          "visible": false
+        },
+        {
+          "index": 3,
+          "name": "Loading spinner",
+          "nodeType": "ELLIPSE",
+          "visible": false
+        },
+        {
+          "index": 4,
+          "name": "Label",
+          "nodeType": "TEXT",
+          "visible": true
+        },
+        {
+          "index": 5,
+          "name": "Trailing icon",
+          "nodeType": "VECTOR",
+          "visible": false
+        }
+      ],
+      "slotDefsSummary": [],
+      "slotVisibility": {},
+      "focusStopsCount": 1,
+      "statesCount": 3,
+      "dictionaryMismatches": [],
+      "obligationLedger": [
+        {
+          "obligationId": "voice:visual-part:button-component-null:08877a58d6",
+          "disposition": "emitted",
+          "targets": [
+            "/data/states/0/sections/0/tables/0",
+            "/data/states/0/sections/0/tables/0/properties/1",
+            "/data/states/0/sections/1/tables/0",
+            "/data/states/0/sections/1/tables/0/properties/1",
+            "/data/states/0/sections/2/tables/0",
+            "/data/states/0/sections/2/tables/0/properties/0",
+            "/data/states/2/sections/0/tables/0",
+            "/data/states/2/sections/0/tables/0/properties/1",
+            "/data/states/2/sections/1/tables/0",
+            "/data/states/2/sections/1/tables/0/properties/1",
+            "/data/states/2/sections/2/tables/0",
+            "/data/states/2/sections/2/tables/0/properties/0"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "voice:visual-part:leading-icon-vector-null:ceece0ab17",
+          "disposition": "merged",
+          "targets": [
+            "/data/states/0/sections/0/tables/0/properties/3",
+            "/data/states/0/sections/1/tables/0/properties/3",
+            "/data/states/0/sections/2/tables/0/properties/3",
+            "/data/states/2/sections/0/tables/0/properties/5",
+            "/data/states/2/sections/1/tables/0/properties/5",
+            "/data/states/2/sections/2/tables/0/properties/5"
+          ],
+          "reason": "The icon is decorative and has no separate accessible name or action."
+        },
+        {
+          "obligationId": "voice:visual-part:loading-spinner-ellipse-null:35e36051ee",
+          "disposition": "merged",
+          "targets": [
+            "/data/states/2/sections/0/tables/0/properties/2",
+            "/data/states/2/sections/0/tables/0/properties/4",
+            "/data/states/2/sections/1/tables/0/properties/2",
+            "/data/states/2/sections/1/tables/0/properties/4",
+            "/data/states/2/sections/2/tables/0/properties/2",
+            "/data/states/2/sections/2/tables/0/properties/4"
+          ],
+          "reason": "The visible loading indicator is communicated through the parent button state, not a separate focus stop."
+        },
+        {
+          "obligationId": "voice:visual-part:label-text-null:fe7ff11eb3",
+          "disposition": "merged",
+          "targets": [
+            "/data/states/0/sections/0/tables/0/properties/0",
+            "/data/states/0/sections/0/tables/0/properties/2",
+            "/data/states/0/sections/1/tables/0/properties/0",
+            "/data/states/0/sections/1/tables/0/properties/2",
+            "/data/states/0/sections/2/tables/0/properties/1",
+            "/data/states/0/sections/2/tables/0/properties/2",
+            "/data/states/2/sections/0/tables/0/properties/0",
+            "/data/states/2/sections/0/tables/0/properties/3",
+            "/data/states/2/sections/1/tables/0/properties/0",
+            "/data/states/2/sections/1/tables/0/properties/3",
+            "/data/states/2/sections/2/tables/0/properties/1",
+            "/data/states/2/sections/2/tables/0/properties/3"
+          ],
+          "reason": "The visible text is merged into the button accessible name."
+        },
+        {
+          "obligationId": "voice:visual-part:trailing-icon-vector-null:cb73ced396",
+          "disposition": "merged",
+          "targets": [
+            "/data/states/0/sections/0/tables/0/properties/3",
+            "/data/states/0/sections/1/tables/0/properties/3",
+            "/data/states/0/sections/2/tables/0/properties/3",
+            "/data/states/2/sections/0/tables/0/properties/5",
+            "/data/states/2/sections/1/tables/0/properties/5",
+            "/data/states/2/sections/2/tables/0/properties/5"
+          ],
+          "reason": "The icon is decorative and has no separate accessible name or action."
+        },
+        {
+          "obligationId": "voice:boolean:leading-icon-25-241:09a0a4470c",
+          "disposition": "merged",
+          "targets": [
+            "/data/states/0/sections/0/tables/0/properties/3",
+            "/data/states/0/sections/1/tables/0/properties/3",
+            "/data/states/0/sections/2/tables/0/properties/3",
+            "/data/states/2/sections/0/tables/0/properties/5",
+            "/data/states/2/sections/1/tables/0/properties/5",
+            "/data/states/2/sections/2/tables/0/properties/5"
+          ],
+          "reason": "This toggle only shows a decorative icon and does not create a separate accessibility stop."
+        },
+        {
+          "obligationId": "voice:boolean:trailing-icon-25-482:873394edb0",
+          "disposition": "merged",
+          "targets": [
+            "/data/states/0/sections/0/tables/0/properties/3",
+            "/data/states/0/sections/1/tables/0/properties/3",
+            "/data/states/0/sections/2/tables/0/properties/3",
+            "/data/states/2/sections/0/tables/0/properties/5",
+            "/data/states/2/sections/1/tables/0/properties/5",
+            "/data/states/2/sections/2/tables/0/properties/5"
+          ],
+          "reason": "This toggle only shows a decorative icon and does not create a separate accessibility stop."
+        }
+      ]
+    }
+  }
+}

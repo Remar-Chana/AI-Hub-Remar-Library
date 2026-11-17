@@ -1,0 +1,1756 @@
+{
+  "_meta": {
+    "schemaVersion": "1",
+    "extractedAt": "2026-11-16T14:05:48.131Z",
+    "fileKey": "aoPsiTorXcI8qsIcNdvc16",
+    "nodeId": "25:1261",
+    "componentSlug": "button",
+    "optionalContext": null,
+    "baseJsonPath": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/.uspec-cache/button/button-_base.json"
+  },
+  "data": {
+    "componentName": "Button",
+    "renderingStrategy": "B",
+    "stateColumns": [
+      "Default",
+      "Hover",
+      "Focus",
+      "Disabled",
+      "Loading"
+    ],
+    "stateAxisName": "State",
+    "_deltaExtractions": [],
+    "_dictionaryUnavailable": false,
+    "_containerRerunHint": null,
+    "_extractionArtifacts": {
+      "strategy": "B",
+      "variantAxes": {
+        "Variant": [
+          "default",
+          "outline",
+          "secondary",
+          "ghost",
+          "destructive",
+          "link"
+        ],
+        "Size": [
+          "default",
+          "xs",
+          "sm",
+          "lg",
+          "icon",
+          "icon-xs",
+          "icon-sm",
+          "icon-lg"
+        ],
+        "State": [
+          "Default",
+          "Hover",
+          "Focus",
+          "Disabled",
+          "Loading"
+        ]
+      },
+      "axisClassification": {
+        "Variant": {
+          "values": [
+            "default",
+            "outline",
+            "secondary",
+            "ghost",
+            "destructive",
+            "link"
+          ],
+          "isState": false,
+          "colorRelevant": true
+        },
+        "Size": {
+          "values": [
+            "default",
+            "xs",
+            "sm",
+            "lg",
+            "icon",
+            "icon-xs",
+            "icon-sm",
+            "icon-lg"
+          ],
+          "isState": false,
+          "colorRelevant": false
+        },
+        "State": {
+          "values": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Disabled",
+            "Loading"
+          ],
+          "isState": true,
+          "colorRelevant": true
+        }
+      },
+      "modeDetection": {
+        "hasModeCollection": false
+      },
+      "uniqueTokens": [
+        "color/action/primary/background",
+        "color/action/primary/foreground",
+        "color/action/secondary/background",
+        "color/action/secondary/foreground",
+        "color/blue/cobalt",
+        "color/blue/electric",
+        "color/border/focus",
+        "color/border/secondary-action",
+        "color/button/destructive/background",
+        "color/button/destructive/hover",
+        "color/link/on-dark",
+        "color/neutral/porcelain",
+        "color/neutral/steel",
+        "color/neutral/white",
+        "color/surface/section",
+        "color/text/on-action"
+      ],
+      "subComponentsReferenced": [],
+      "containerSymptoms": [],
+      "schemaWarnings": [],
+      "dictionaryMismatches": [],
+      "obligationLedger": [
+        {
+          "obligationId": "color:paint:state-default-variant-default-root-fill:46aeca3211",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/0",
+            "/data/sections/0/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-default-root-stroke:e68b01843d",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/1",
+            "/data/sections/0/tables/0/elements/2",
+            "/data/sections/0/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-default-root-text-fill:e52e8bbc0a",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-default-root-fill:4e60cba532",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/0",
+            "/data/sections/0/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-default-root-stroke:4c617628a4",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/1",
+            "/data/sections/0/tables/0/elements/2",
+            "/data/sections/0/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-default-root-text-fill:94ed059c49",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-default-root-fill:c6f4236139",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/0",
+            "/data/sections/0/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-default-root-stroke:8210fd027d",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/1",
+            "/data/sections/0/tables/0/elements/2",
+            "/data/sections/0/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-default-root-text-fill:034aa4e5fe",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-default-root-fill:bb99515b9e",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/0",
+            "/data/sections/0/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-default-root-stroke:0068353b42",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/1",
+            "/data/sections/0/tables/0/elements/2",
+            "/data/sections/0/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-default-root-text-fill:a3a8cd34cc",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-default-root-fill:aae2169334",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/0",
+            "/data/sections/0/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-default-root-stroke:e3bd014873",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/1",
+            "/data/sections/0/tables/0/elements/2",
+            "/data/sections/0/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-default-root-text-fill:6eb71088ec",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/0/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-outline-root-fill:1e3f108a71",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/0",
+            "/data/sections/1/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-outline-root-stroke:4bbb74cd9a",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/1",
+            "/data/sections/1/tables/0/elements/2",
+            "/data/sections/1/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-outline-root-text-fill:fda68795a3",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-outline-root-fill:443c4043b4",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/0",
+            "/data/sections/1/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-outline-root-stroke:2a5de4bed9",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/1",
+            "/data/sections/1/tables/0/elements/2",
+            "/data/sections/1/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-outline-root-text-fill:6261bffdbf",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-outline-root-fill:dbee2715fa",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/0",
+            "/data/sections/1/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-outline-root-stroke:d2db7a71c2",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/1",
+            "/data/sections/1/tables/0/elements/2",
+            "/data/sections/1/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-outline-root-text-fill:090a5592ab",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-outline-root-fill:aaecd47611",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/0",
+            "/data/sections/1/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-outline-root-stroke:15735a9cbe",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/1",
+            "/data/sections/1/tables/0/elements/2",
+            "/data/sections/1/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-outline-root-text-fill:82fd3a2e52",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-outline-root-fill:df3555c624",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/0",
+            "/data/sections/1/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-outline-root-stroke:4bb8852263",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/1",
+            "/data/sections/1/tables/0/elements/2",
+            "/data/sections/1/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-outline-root-text-fill:ac64116dfa",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/1/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-secondary-root-fill:ad68e73203",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/0",
+            "/data/sections/2/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-secondary-root-stroke:2633ef41cd",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/1",
+            "/data/sections/2/tables/0/elements/2",
+            "/data/sections/2/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-secondary-root-text-fill:4c8b23d66a",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-secondary-root-fill:c9b36069ac",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/0",
+            "/data/sections/2/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-secondary-root-stroke:c47389f6f7",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/1",
+            "/data/sections/2/tables/0/elements/2",
+            "/data/sections/2/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-secondary-root-text-fill:73f45d8bce",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-secondary-root-fill:0970d94d6b",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/0",
+            "/data/sections/2/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-secondary-root-stroke:d846449a30",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/1",
+            "/data/sections/2/tables/0/elements/2",
+            "/data/sections/2/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-secondary-root-text-fill:79f6d158c4",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-secondary-root-fill:9bf09f18c4",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/0",
+            "/data/sections/2/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-secondary-root-stroke:d9ecde7ed6",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/1",
+            "/data/sections/2/tables/0/elements/2",
+            "/data/sections/2/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-secondary-root-text-fill:2e8d293f57",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-secondary-root-fill:7a036f32c2",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/0",
+            "/data/sections/2/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-secondary-root-stroke:6382f4a5df",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/1",
+            "/data/sections/2/tables/0/elements/2",
+            "/data/sections/2/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-secondary-root-text-fill:0043d7608d",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/2/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-ghost-root-fill:7e210ab10f",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/0",
+            "/data/sections/3/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-ghost-root-stroke:920e1f40e9",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/1",
+            "/data/sections/3/tables/0/elements/2",
+            "/data/sections/3/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-ghost-root-text-fill:89a318b6c9",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-ghost-root-fill:16ceb1a97f",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/0",
+            "/data/sections/3/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-ghost-root-stroke:54961cae93",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/1",
+            "/data/sections/3/tables/0/elements/2",
+            "/data/sections/3/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-ghost-root-text-fill:02af84fb6e",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-ghost-root-fill:f945187cb2",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/0",
+            "/data/sections/3/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-ghost-root-stroke:947b1e4017",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/1",
+            "/data/sections/3/tables/0/elements/2",
+            "/data/sections/3/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-ghost-root-text-fill:40aa9fe0ec",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-ghost-root-fill:4a5dd97a0a",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/0",
+            "/data/sections/3/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-ghost-root-stroke:99f20c532f",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/1",
+            "/data/sections/3/tables/0/elements/2",
+            "/data/sections/3/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-ghost-root-text-fill:42d3e8bda9",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-ghost-root-fill:1c08f1bebf",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/0",
+            "/data/sections/3/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-ghost-root-stroke:5bf27db2b0",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/1",
+            "/data/sections/3/tables/0/elements/2",
+            "/data/sections/3/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-ghost-root-text-fill:e598a75f1e",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/3/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-destructive-root-fill:5a45c98c09",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/0",
+            "/data/sections/4/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-destructive-root-stroke:1b63114475",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/1",
+            "/data/sections/4/tables/0/elements/2",
+            "/data/sections/4/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-destructive-root-text-fill:fca5a9f5da",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-destructive-root-fill:9db54f66cb",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/0",
+            "/data/sections/4/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-destructive-root-stroke:d214ea246a",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/1",
+            "/data/sections/4/tables/0/elements/2",
+            "/data/sections/4/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-destructive-root-text-fill:3c88bf5905",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-destructive-root-fill:24f41717fc",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/0",
+            "/data/sections/4/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-destructive-root-stroke:a109d37d81",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/1",
+            "/data/sections/4/tables/0/elements/2",
+            "/data/sections/4/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-destructive-root-text-fill:c67975e564",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-destructive-root-fill:2a947756b6",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/0",
+            "/data/sections/4/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-destructive-root-stroke:61feeb3e73",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/1",
+            "/data/sections/4/tables/0/elements/2",
+            "/data/sections/4/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-destructive-root-text-fil:fa067d337f",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-destructive-root-fill:1759e4c876",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/0",
+            "/data/sections/4/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-destructive-root-stroke:6d94e5aec9",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/1",
+            "/data/sections/4/tables/0/elements/2",
+            "/data/sections/4/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-destructive-root-text-fill:3c58a28b31",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/4/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-link-root-fill:d1c7300c22",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/0",
+            "/data/sections/5/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-link-root-stroke:acca1b6be9",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/1",
+            "/data/sections/5/tables/0/elements/2",
+            "/data/sections/5/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-default-variant-link-root-text-fill:3f16de9ae9",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-link-root-fill:2074fbfb0e",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/0",
+            "/data/sections/5/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-link-root-stroke:97b3c39ca8",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/1",
+            "/data/sections/5/tables/0/elements/2",
+            "/data/sections/5/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-hover-variant-link-root-text-fill:aa70d56fda",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-link-root-fill:619fdc6484",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/0",
+            "/data/sections/5/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-link-root-stroke:404f0183ce",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/1",
+            "/data/sections/5/tables/0/elements/2",
+            "/data/sections/5/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-focus-variant-link-root-text-fill:21884c1bf8",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-link-root-fill:a58afb47c6",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/0",
+            "/data/sections/5/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-link-root-stroke:9a2008207a",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/1",
+            "/data/sections/5/tables/0/elements/2",
+            "/data/sections/5/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-disabled-variant-link-root-text-fill:4fab664480",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/4"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-link-root-fill:7ba4ed76d8",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/0",
+            "/data/sections/5/tables/0/elements/3"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-link-root-stroke:966696d5e5",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/1",
+            "/data/sections/5/tables/0/elements/2",
+            "/data/sections/5/tables/0/elements/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "color:paint:state-loading-variant-link-root-text-fill:d30df397f6",
+          "disposition": "emitted",
+          "targets": [
+            "/data/sections/5/tables/0/elements/4"
+          ],
+          "reason": ""
+        }
+      ]
+    },
+    "sections": [
+      {
+        "name": "default",
+        "variantProperties": {
+          "Variant": "default",
+          "Size": "default",
+          "State": "Default"
+        },
+        "tables": [
+          {
+            "name": "Spec",
+            "elements": [
+              {
+                "element": "Container fill",
+                "tokensByState": {
+                  "Default": "color/action/primary/background",
+                  "Hover": "color/blue/cobalt",
+                  "Focus": "color/action/primary/background",
+                  "Disabled": "color/action/primary/background",
+                  "Loading": "color/action/primary/background"
+                },
+                "notes": "Button surface fill color."
+              },
+              {
+                "element": "Container stroke",
+                "tokensByState": {
+                  "Default": "none",
+                  "Hover": "none",
+                  "Focus": "color/border/focus",
+                  "Disabled": "none",
+                  "Loading": "none"
+                },
+                "notes": "Border and visible focus ring."
+              },
+              {
+                "element": "Leading icon",
+                "tokensByState": {
+                  "Default": "color/neutral/white",
+                  "Hover": "color/neutral/white",
+                  "Focus": "color/neutral/white",
+                  "Disabled": "color/neutral/white",
+                  "Loading": "color/neutral/white"
+                },
+                "notes": "Optional leading icon stroke color."
+              },
+              {
+                "element": "Loading spinner",
+                "tokensByState": {
+                  "Default": "none",
+                  "Hover": "none",
+                  "Focus": "none",
+                  "Disabled": "none",
+                  "Loading": "color/neutral/white"
+                },
+                "notes": "Loading indicator fill color."
+              },
+              {
+                "element": "Label",
+                "tokensByState": {
+                  "Default": "color/action/primary/foreground",
+                  "Hover": "color/action/primary/foreground",
+                  "Focus": "color/action/primary/foreground",
+                  "Disabled": "color/action/primary/foreground",
+                  "Loading": "color/action/primary/foreground"
+                },
+                "notes": "Button label text color."
+              },
+              {
+                "element": "Trailing icon",
+                "tokensByState": {
+                  "Default": "color/neutral/white",
+                  "Hover": "color/neutral/white",
+                  "Focus": "color/neutral/white",
+                  "Disabled": "color/neutral/white",
+                  "Loading": "color/neutral/white"
+                },
+                "notes": "Optional trailing icon stroke color."
+              }
+            ],
+            "elementHexesByState": [
+              {
+                "hexByState": {
+                  "Default": "#0071E3",
+                  "Hover": "#0066CC",
+                  "Focus": "#0071E3",
+                  "Disabled": "#0071E3",
+                  "Loading": "#0071E3"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": null,
+                  "Hover": null,
+                  "Focus": "#0071E3",
+                  "Disabled": null,
+                  "Loading": null
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#FFFFFF",
+                  "Hover": "#FFFFFF",
+                  "Focus": "#FFFFFF",
+                  "Disabled": "#FFFFFF",
+                  "Loading": "#FFFFFF"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": null,
+                  "Hover": null,
+                  "Focus": null,
+                  "Disabled": null,
+                  "Loading": "#FFFFFF"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#FFFFFF",
+                  "Hover": "#FFFFFF",
+                  "Focus": "#FFFFFF",
+                  "Disabled": "#FFFFFF",
+                  "Loading": "#FFFFFF"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#FFFFFF",
+                  "Hover": "#FFFFFF",
+                  "Focus": "#FFFFFF",
+                  "Disabled": "#FFFFFF",
+                  "Loading": "#FFFFFF"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "outline",
+        "variantProperties": {
+          "Variant": "outline",
+          "Size": "default",
+          "State": "Default"
+        },
+        "tables": [
+          {
+            "name": "Spec",
+            "elements": [
+              {
+                "element": "Container fill",
+                "tokensByState": {
+                  "Default": "color/action/secondary/background",
+                  "Hover": "color/surface/section",
+                  "Focus": "color/action/secondary/background",
+                  "Disabled": "color/action/secondary/background",
+                  "Loading": "color/action/secondary/background"
+                },
+                "notes": "Button surface fill color."
+              },
+              {
+                "element": "Container stroke",
+                "tokensByState": {
+                  "Default": "color/border/secondary-action",
+                  "Hover": "color/border/secondary-action",
+                  "Focus": "color/border/focus",
+                  "Disabled": "color/border/secondary-action",
+                  "Loading": "color/border/secondary-action"
+                },
+                "notes": "Border and visible focus ring."
+              },
+              {
+                "element": "Leading icon",
+                "tokensByState": {
+                  "Default": "color/neutral/porcelain",
+                  "Hover": "color/neutral/porcelain",
+                  "Focus": "color/neutral/porcelain",
+                  "Disabled": "color/neutral/porcelain",
+                  "Loading": "color/neutral/porcelain"
+                },
+                "notes": "Optional leading icon stroke color."
+              },
+              {
+                "element": "Loading spinner",
+                "tokensByState": {
+                  "Default": "none",
+                  "Hover": "none",
+                  "Focus": "none",
+                  "Disabled": "none",
+                  "Loading": "color/neutral/porcelain"
+                },
+                "notes": "Loading indicator fill color."
+              },
+              {
+                "element": "Label",
+                "tokensByState": {
+                  "Default": "color/action/secondary/foreground",
+                  "Hover": "color/action/secondary/foreground",
+                  "Focus": "color/action/secondary/foreground",
+                  "Disabled": "color/action/secondary/foreground",
+                  "Loading": "color/action/secondary/foreground"
+                },
+                "notes": "Button label text color."
+              },
+              {
+                "element": "Trailing icon",
+                "tokensByState": {
+                  "Default": "color/neutral/porcelain",
+                  "Hover": "color/neutral/porcelain",
+                  "Focus": "color/neutral/porcelain",
+                  "Disabled": "color/neutral/porcelain",
+                  "Loading": "color/neutral/porcelain"
+                },
+                "notes": "Optional trailing icon stroke color."
+              }
+            ],
+            "elementHexesByState": [
+              {
+                "hexByState": {
+                  "Default": "#000000",
+                  "Hover": "#1D1D1F",
+                  "Focus": "#000000",
+                  "Disabled": "#000000",
+                  "Loading": "#000000"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#6E6E73",
+                  "Hover": "#6E6E73",
+                  "Focus": "#0071E3",
+                  "Disabled": "#6E6E73",
+                  "Loading": "#6E6E73"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#F5F5F7",
+                  "Hover": "#F5F5F7",
+                  "Focus": "#F5F5F7",
+                  "Disabled": "#F5F5F7",
+                  "Loading": "#F5F5F7"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": null,
+                  "Hover": null,
+                  "Focus": null,
+                  "Disabled": null,
+                  "Loading": "#F5F5F7"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#F5F5F7",
+                  "Hover": "#F5F5F7",
+                  "Focus": "#F5F5F7",
+                  "Disabled": "#F5F5F7",
+                  "Loading": "#F5F5F7"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#F5F5F7",
+                  "Hover": "#F5F5F7",
+                  "Focus": "#F5F5F7",
+                  "Disabled": "#F5F5F7",
+                  "Loading": "#F5F5F7"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "secondary",
+        "variantProperties": {
+          "Variant": "secondary",
+          "Size": "default",
+          "State": "Default"
+        },
+        "tables": [
+          {
+            "name": "Spec",
+            "elements": [
+              {
+                "element": "Container fill",
+                "tokensByState": {
+                  "Default": "color/surface/section",
+                  "Hover": "color/neutral/steel",
+                  "Focus": "color/surface/section",
+                  "Disabled": "color/surface/section",
+                  "Loading": "color/surface/section"
+                },
+                "notes": "Button surface fill color."
+              },
+              {
+                "element": "Container stroke",
+                "tokensByState": {
+                  "Default": "none",
+                  "Hover": "none",
+                  "Focus": "color/border/focus",
+                  "Disabled": "none",
+                  "Loading": "none"
+                },
+                "notes": "Border and visible focus ring."
+              },
+              {
+                "element": "Leading icon",
+                "tokensByState": {
+                  "Default": "color/neutral/porcelain",
+                  "Hover": "color/neutral/porcelain",
+                  "Focus": "color/neutral/porcelain",
+                  "Disabled": "color/neutral/porcelain",
+                  "Loading": "color/neutral/porcelain"
+                },
+                "notes": "Optional leading icon stroke color."
+              },
+              {
+                "element": "Loading spinner",
+                "tokensByState": {
+                  "Default": "none",
+                  "Hover": "none",
+                  "Focus": "none",
+                  "Disabled": "none",
+                  "Loading": "color/neutral/porcelain"
+                },
+                "notes": "Loading indicator fill color."
+              },
+              {
+                "element": "Label",
+                "tokensByState": {
+                  "Default": "color/action/secondary/foreground",
+                  "Hover": "color/action/secondary/foreground",
+                  "Focus": "color/action/secondary/foreground",
+                  "Disabled": "color/action/secondary/foreground",
+                  "Loading": "color/action/secondary/foreground"
+                },
+                "notes": "Button label text color."
+              },
+              {
+                "element": "Trailing icon",
+                "tokensByState": {
+                  "Default": "color/neutral/porcelain",
+                  "Hover": "color/neutral/porcelain",
+                  "Focus": "color/neutral/porcelain",
+                  "Disabled": "color/neutral/porcelain",
+                  "Loading": "color/neutral/porcelain"
+                },
+                "notes": "Optional trailing icon stroke color."
+              }
+            ],
+            "elementHexesByState": [
+              {
+                "hexByState": {
+                  "Default": "#1D1D1F",
+                  "Hover": "#333336",
+                  "Focus": "#1D1D1F",
+                  "Disabled": "#1D1D1F",
+                  "Loading": "#1D1D1F"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": null,
+                  "Hover": null,
+                  "Focus": "#0071E3",
+                  "Disabled": null,
+                  "Loading": null
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#F5F5F7",
+                  "Hover": "#F5F5F7",
+                  "Focus": "#F5F5F7",
+                  "Disabled": "#F5F5F7",
+                  "Loading": "#F5F5F7"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": null,
+                  "Hover": null,
+                  "Focus": null,
+                  "Disabled": null,
+                  "Loading": "#F5F5F7"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#F5F5F7",
+                  "Hover": "#F5F5F7",
+                  "Focus": "#F5F5F7",
+                  "Disabled": "#F5F5F7",
+                  "Loading": "#F5F5F7"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#F5F5F7",
+                  "Hover": "#F5F5F7",
+                  "Focus": "#F5F5F7",
+                  "Disabled": "#F5F5F7",
+                  "Loading": "#F5F5F7"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ghost",
+        "variantProperties": {
+          "Variant": "ghost",
+          "Size": "default",
+          "State": "Default"
+        },
+        "tables": [
+          {
+            "name": "Spec",
+            "elements": [
+              {
+                "element": "Container fill",
+                "tokensByState": {
+                  "Default": "color/action/secondary/background",
+                  "Hover": "color/surface/section",
+                  "Focus": "color/action/secondary/background",
+                  "Disabled": "color/action/secondary/background",
+                  "Loading": "color/action/secondary/background"
+                },
+                "notes": "Button surface fill color."
+              },
+              {
+                "element": "Container stroke",
+                "tokensByState": {
+                  "Default": "none",
+                  "Hover": "none",
+                  "Focus": "color/border/focus",
+                  "Disabled": "none",
+                  "Loading": "none"
+                },
+                "notes": "Border and visible focus ring."
+              },
+              {
+                "element": "Leading icon",
+                "tokensByState": {
+                  "Default": "color/neutral/porcelain",
+                  "Hover": "color/neutral/porcelain",
+                  "Focus": "color/neutral/porcelain",
+                  "Disabled": "color/neutral/porcelain",
+                  "Loading": "color/neutral/porcelain"
+                },
+                "notes": "Optional leading icon stroke color."
+              },
+              {
+                "element": "Loading spinner",
+                "tokensByState": {
+                  "Default": "none",
+                  "Hover": "none",
+                  "Focus": "none",
+                  "Disabled": "none",
+                  "Loading": "color/neutral/porcelain"
+                },
+                "notes": "Loading indicator fill color."
+              },
+              {
+                "element": "Label",
+                "tokensByState": {
+                  "Default": "color/action/secondary/foreground",
+                  "Hover": "color/action/secondary/foreground",
+                  "Focus": "color/action/secondary/foreground",
+                  "Disabled": "color/action/secondary/foreground",
+                  "Loading": "color/action/secondary/foreground"
+                },
+                "notes": "Button label text color."
+              },
+              {
+                "element": "Trailing icon",
+                "tokensByState": {
+                  "Default": "color/neutral/porcelain",
+                  "Hover": "color/neutral/porcelain",
+                  "Focus": "color/neutral/porcelain",
+                  "Disabled": "color/neutral/porcelain",
+                  "Loading": "color/neutral/porcelain"
+                },
+                "notes": "Optional trailing icon stroke color."
+              }
+            ],
+            "elementHexesByState": [
+              {
+                "hexByState": {
+                  "Default": "#000000",
+                  "Hover": "#1D1D1F",
+                  "Focus": "#000000",
+                  "Disabled": "#000000",
+                  "Loading": "#000000"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": null,
+                  "Hover": null,
+                  "Focus": "#0071E3",
+                  "Disabled": null,
+                  "Loading": null
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#F5F5F7",
+                  "Hover": "#F5F5F7",
+                  "Focus": "#F5F5F7",
+                  "Disabled": "#F5F5F7",
+                  "Loading": "#F5F5F7"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": null,
+                  "Hover": null,
+                  "Focus": null,
+                  "Disabled": null,
+                  "Loading": "#F5F5F7"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#F5F5F7",
+                  "Hover": "#F5F5F7",
+                  "Focus": "#F5F5F7",
+                  "Disabled": "#F5F5F7",
+                  "Loading": "#F5F5F7"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#F5F5F7",
+                  "Hover": "#F5F5F7",
+                  "Focus": "#F5F5F7",
+                  "Disabled": "#F5F5F7",
+                  "Loading": "#F5F5F7"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "destructive",
+        "variantProperties": {
+          "Variant": "destructive",
+          "Size": "default",
+          "State": "Default"
+        },
+        "tables": [
+          {
+            "name": "Spec",
+            "elements": [
+              {
+                "element": "Container fill",
+                "tokensByState": {
+                  "Default": "color/button/destructive/background",
+                  "Hover": "color/button/destructive/hover",
+                  "Focus": "color/button/destructive/background",
+                  "Disabled": "color/button/destructive/background",
+                  "Loading": "color/button/destructive/background"
+                },
+                "notes": "Button surface fill color."
+              },
+              {
+                "element": "Container stroke",
+                "tokensByState": {
+                  "Default": "none",
+                  "Hover": "none",
+                  "Focus": "color/border/focus",
+                  "Disabled": "none",
+                  "Loading": "none"
+                },
+                "notes": "Border and visible focus ring."
+              },
+              {
+                "element": "Leading icon",
+                "tokensByState": {
+                  "Default": "color/neutral/white",
+                  "Hover": "color/neutral/white",
+                  "Focus": "color/neutral/white",
+                  "Disabled": "color/neutral/white",
+                  "Loading": "color/neutral/white"
+                },
+                "notes": "Optional leading icon stroke color."
+              },
+              {
+                "element": "Loading spinner",
+                "tokensByState": {
+                  "Default": "none",
+                  "Hover": "none",
+                  "Focus": "none",
+                  "Disabled": "none",
+                  "Loading": "color/neutral/white"
+                },
+                "notes": "Loading indicator fill color."
+              },
+              {
+                "element": "Label",
+                "tokensByState": {
+                  "Default": "color/text/on-action",
+                  "Hover": "color/text/on-action",
+                  "Focus": "color/text/on-action",
+                  "Disabled": "color/text/on-action",
+                  "Loading": "color/text/on-action"
+                },
+                "notes": "Button label text color."
+              },
+              {
+                "element": "Trailing icon",
+                "tokensByState": {
+                  "Default": "color/neutral/white",
+                  "Hover": "color/neutral/white",
+                  "Focus": "color/neutral/white",
+                  "Disabled": "color/neutral/white",
+                  "Loading": "color/neutral/white"
+                },
+                "notes": "Optional trailing icon stroke color."
+              }
+            ],
+            "elementHexesByState": [
+              {
+                "hexByState": {
+                  "Default": "#B42318",
+                  "Hover": "#D92D20",
+                  "Focus": "#B42318",
+                  "Disabled": "#B42318",
+                  "Loading": "#B42318"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": null,
+                  "Hover": null,
+                  "Focus": "#0071E3",
+                  "Disabled": null,
+                  "Loading": null
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#FFFFFF",
+                  "Hover": "#FFFFFF",
+                  "Focus": "#FFFFFF",
+                  "Disabled": "#FFFFFF",
+                  "Loading": "#FFFFFF"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": null,
+                  "Hover": null,
+                  "Focus": null,
+                  "Disabled": null,
+                  "Loading": "#FFFFFF"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#FFFFFF",
+                  "Hover": "#FFFFFF",
+                  "Focus": "#FFFFFF",
+                  "Disabled": "#FFFFFF",
+                  "Loading": "#FFFFFF"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#FFFFFF",
+                  "Hover": "#FFFFFF",
+                  "Focus": "#FFFFFF",
+                  "Disabled": "#FFFFFF",
+                  "Loading": "#FFFFFF"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "link",
+        "variantProperties": {
+          "Variant": "link",
+          "Size": "default",
+          "State": "Default"
+        },
+        "tables": [
+          {
+            "name": "Spec",
+            "elements": [
+              {
+                "element": "Container fill",
+                "tokensByState": {
+                  "Default": "color/action/secondary/background",
+                  "Hover": "color/action/secondary/background",
+                  "Focus": "color/action/secondary/background",
+                  "Disabled": "color/action/secondary/background",
+                  "Loading": "color/action/secondary/background"
+                },
+                "notes": "Button surface fill color."
+              },
+              {
+                "element": "Container stroke",
+                "tokensByState": {
+                  "Default": "none",
+                  "Hover": "none",
+                  "Focus": "color/border/focus",
+                  "Disabled": "none",
+                  "Loading": "none"
+                },
+                "notes": "Border and visible focus ring."
+              },
+              {
+                "element": "Leading icon",
+                "tokensByState": {
+                  "Default": "color/blue/electric",
+                  "Hover": "color/blue/electric",
+                  "Focus": "color/blue/electric",
+                  "Disabled": "color/blue/electric",
+                  "Loading": "color/blue/electric"
+                },
+                "notes": "Optional leading icon stroke color."
+              },
+              {
+                "element": "Loading spinner",
+                "tokensByState": {
+                  "Default": "none",
+                  "Hover": "none",
+                  "Focus": "none",
+                  "Disabled": "none",
+                  "Loading": "color/blue/electric"
+                },
+                "notes": "Loading indicator fill color."
+              },
+              {
+                "element": "Label",
+                "tokensByState": {
+                  "Default": "color/link/on-dark",
+                  "Hover": "color/link/on-dark",
+                  "Focus": "color/link/on-dark",
+                  "Disabled": "color/link/on-dark",
+                  "Loading": "color/link/on-dark"
+                },
+                "notes": "Button label text color."
+              },
+              {
+                "element": "Trailing icon",
+                "tokensByState": {
+                  "Default": "color/blue/electric",
+                  "Hover": "color/blue/electric",
+                  "Focus": "color/blue/electric",
+                  "Disabled": "color/blue/electric",
+                  "Loading": "color/blue/electric"
+                },
+                "notes": "Optional trailing icon stroke color."
+              }
+            ],
+            "elementHexesByState": [
+              {
+                "hexByState": {
+                  "Default": "#000000",
+                  "Hover": "#000000",
+                  "Focus": "#000000",
+                  "Disabled": "#000000",
+                  "Loading": "#000000"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": null,
+                  "Hover": null,
+                  "Focus": "#0071E3",
+                  "Disabled": null,
+                  "Loading": null
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#2997FF",
+                  "Hover": "#2997FF",
+                  "Focus": "#2997FF",
+                  "Disabled": "#2997FF",
+                  "Loading": "#2997FF"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": null,
+                  "Hover": null,
+                  "Focus": null,
+                  "Disabled": null,
+                  "Loading": "#2997FF"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#2997FF",
+                  "Hover": "#2997FF",
+                  "Focus": "#2997FF",
+                  "Disabled": "#2997FF",
+                  "Loading": "#2997FF"
+                }
+              },
+              {
+                "hexByState": {
+                  "Default": "#2997FF",
+                  "Hover": "#2997FF",
+                  "Focus": "#2997FF",
+                  "Disabled": "#2997FF",
+                  "Loading": "#2997FF"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

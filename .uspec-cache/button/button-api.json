@@ -1,0 +1,292 @@
+{
+  "_meta": {
+    "schemaVersion": "1",
+    "extractedAt": "2026-11-16T14:05:48.131Z",
+    "fileKey": "aoPsiTorXcI8qsIcNdvc16",
+    "nodeId": "25:1261",
+    "componentSlug": "button",
+    "optionalContext": null,
+    "baseJsonPath": ".uspec-cache/button/button-_base.json"
+  },
+  "data": {
+    "componentName": "Button",
+    "generalNotes": "Hover and focus are transient interaction states; the public API exposes persistent disabled and loading behavior as booleans. The Figma source models Disabled and Loading as mutually exclusive State variants and provides no combined case, so treat these props as mutually exclusive or define their combined behavior explicitly in application code.",
+    "mainTable": {
+      "properties": [
+        {
+          "property": "label",
+          "values": "string",
+          "required": false,
+          "default": "Button",
+          "notes": "Text displayed inside the button."
+        },
+        {
+          "property": "variant",
+          "values": "default, outline, secondary, ghost, destructive, link",
+          "required": false,
+          "default": "default",
+          "notes": "Visual treatment of the button."
+        },
+        {
+          "property": "size",
+          "values": "default, xs, sm, lg, icon, icon-xs, icon-sm, icon-lg",
+          "required": false,
+          "default": "default",
+          "notes": "Controls the button dimensions."
+        },
+        {
+          "property": "isDisabled",
+          "values": "true, false",
+          "required": false,
+          "default": "false",
+          "notes": "Prevents activation and uses the disabled appearance."
+        },
+        {
+          "property": "isLoading",
+          "values": "true, false",
+          "required": false,
+          "default": "false",
+          "notes": "Shows the loading treatment; announce as busy while loading."
+        },
+        {
+          "property": "showLeadingIcon",
+          "values": "true, false",
+          "required": false,
+          "default": "false",
+          "notes": "Shows the built-in leading icon."
+        },
+        {
+          "property": "showTrailingIcon",
+          "values": "true, false",
+          "required": false,
+          "default": "false",
+          "notes": "Shows the built-in trailing icon."
+        }
+      ]
+    },
+    "subComponentTables": [],
+    "configurationExamples": [
+      {
+        "title": "Example 1 — Primary action",
+        "variantProperties": {
+          "Variant": "default",
+          "Size": "default",
+          "State": "Default",
+          "Leading icon#25:241": false,
+          "Trailing icon#25:482": false
+        },
+        "textOverrides": {
+          "Label": "Save"
+        },
+        "properties": [
+          {
+            "property": "label",
+            "value": "\"Save\"",
+            "notes": "Concise action label."
+          },
+          {
+            "property": "variant",
+            "value": "default",
+            "notes": "Default visual treatment."
+          },
+          {
+            "property": "size",
+            "value": "default",
+            "notes": "Default size."
+          }
+        ]
+      },
+      {
+        "title": "Example 2 — Action with leading icon",
+        "variantProperties": {
+          "Variant": "default",
+          "Size": "default",
+          "State": "Default",
+          "Leading icon#25:241": true,
+          "Trailing icon#25:482": false
+        },
+        "textOverrides": {
+          "Label": "Continue"
+        },
+        "properties": [
+          {
+            "property": "label",
+            "value": "\"Continue\"",
+            "notes": "Action label."
+          },
+          {
+            "property": "showLeadingIcon",
+            "value": "true",
+            "notes": "Shows the built-in leading icon."
+          }
+        ]
+      },
+      {
+        "title": "Example 3 — Loading action",
+        "variantProperties": {
+          "Variant": "default",
+          "Size": "default",
+          "State": "Loading",
+          "Leading icon#25:241": false,
+          "Trailing icon#25:482": false
+        },
+        "textOverrides": {
+          "Label": "Saving"
+        },
+        "properties": [
+          {
+            "property": "label",
+            "value": "\"Saving\"",
+            "notes": "Label while the action is in progress."
+          },
+          {
+            "property": "isLoading",
+            "value": "true",
+            "notes": "Shows the loading treatment and exposes a busy state."
+          }
+        ]
+      },
+      {
+        "title": "Example 4 — Disabled destructive action",
+        "variantProperties": {
+          "Variant": "destructive",
+          "Size": "default",
+          "State": "Disabled",
+          "Leading icon#25:241": false,
+          "Trailing icon#25:482": false
+        },
+        "textOverrides": {
+          "Label": "Delete"
+        },
+        "properties": [
+          {
+            "property": "label",
+            "value": "\"Delete\"",
+            "notes": "Destructive action label."
+          },
+          {
+            "property": "variant",
+            "value": "destructive",
+            "notes": "Destructive visual treatment."
+          },
+          {
+            "property": "isDisabled",
+            "value": "true",
+            "notes": "Prevents activation."
+          }
+        ]
+      }
+    ],
+    "_deltaExtractions": [],
+    "_extractionArtifacts": {
+      "booleanRelationshipAnalysis": [],
+      "stateAxisMapping": [
+        {
+          "figmaAxis": "State",
+          "figmaValue": "Default",
+          "apiAssignments": {
+            "isDisabled": false,
+            "isLoading": false
+          },
+          "runtimeCondition": "enabled"
+        },
+        {
+          "figmaAxis": "State",
+          "figmaValue": "Hover",
+          "apiAssignments": {
+            "isDisabled": false,
+            "isLoading": false
+          },
+          "runtimeCondition": "hovered"
+        },
+        {
+          "figmaAxis": "State",
+          "figmaValue": "Focus",
+          "apiAssignments": {
+            "isDisabled": false,
+            "isLoading": false
+          },
+          "runtimeCondition": "focused"
+        },
+        {
+          "figmaAxis": "State",
+          "figmaValue": "Disabled",
+          "apiAssignments": {
+            "isDisabled": true,
+            "isLoading": false
+          },
+          "runtimeCondition": "disabled"
+        },
+        {
+          "figmaAxis": "State",
+          "figmaValue": "Loading",
+          "apiAssignments": {
+            "isDisabled": false,
+            "isLoading": true
+          },
+          "runtimeCondition": "loading"
+        }
+      ],
+      "slotResolverStrategy": [],
+      "obligationLedger": [
+        {
+          "obligationId": "api:raw-property:label-25-0:d5d95beaad",
+          "disposition": "emitted",
+          "targets": [
+            "/data/mainTable/properties/0"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "api:raw-property:leading-icon-25-241:09a0a4470c",
+          "disposition": "emitted",
+          "targets": [
+            "/data/mainTable/properties/5"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "api:raw-property:trailing-icon-25-482:873394edb0",
+          "disposition": "emitted",
+          "targets": [
+            "/data/mainTable/properties/6"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "api:raw-property:variant:3f19fe84a2",
+          "disposition": "emitted",
+          "targets": [
+            "/data/mainTable/properties/1"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "api:raw-property:size:1af8519073",
+          "disposition": "emitted",
+          "targets": [
+            "/data/mainTable/properties/2"
+          ],
+          "reason": ""
+        },
+        {
+          "obligationId": "api:raw-property:state:a3b50c4767",
+          "disposition": "merged",
+          "targets": [
+            "/data/mainTable/properties/3",
+            "/data/mainTable/properties/4"
+          ],
+          "reason": "The mixed Figma state axis is decomposed into persistent disabled and loading API props; hover/focus remain transient."
+        },
+        {
+          "obligationId": "api:text-content:label:9388823617",
+          "disposition": "emitted",
+          "targets": [
+            "/data/mainTable/properties/0"
+          ],
+          "reason": ""
+        }
+      ]
+    }
+  }
+}

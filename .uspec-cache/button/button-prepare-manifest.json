@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "schemaVersion": "1",
+    "preparedAt": "2026-11-16T14:33:09.767Z",
+    "componentSlug": "button",
+    "baseJsonPath": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/.uspec-cache/button/button-_base.json",
+    "baseBytes": 3719506,
+    "baseSourceHash": "sha256:1a03c59fd6790dd6a2e7b693da65a59ae329b7f82e43beb0ce31f27106ade7da",
+    "pluginVersion": "2.7.0",
+    "variantsWalked": 240,
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  },
+  "readiness": {
+    "layoutTreeHasNodeIds": true,
+    "childCompositionUserSelected": true,
+    "revealedTreeHasChildren": true,
+    "variantTreesComplete": true,
+    "subComponentVariantWalksPresent": true,
+    "warnings": []
+  },
+  "source": {
+    "fileKey": "aoPsiTorXcI8qsIcNdvc16",
+    "nodeId": "25:1261",
+    "figmaUrl": "https://www.figma.com/design/aoPsiTorXcI8qsIcNdvc16/Untitled?node-id=25-1261",
+    "extractionSource": "plugin"
+  },
+  "metrics": {
+    "prepare": {
+      "baseBytes": 3719506,
+      "evidenceBytes": {
+        "api": 200343,
+        "structure": 13495331,
+        "color": 658720,
+        "voice": 896973,
+        "renderer": 2285444
+      },
+      "obligationCounts": {
+        "api": 7,
+        "structure": 15120,
+        "color": 90,
+        "voice": 7
+      },
+      "obligationKindCounts": {
+        "api": {
+          "raw-property": 6,
+          "text-content": 1
+        },
+        "structure": {
+          "root-dimension": 3600,
+          "node-dimension": 10080,
+          "typography-field": 1440
+        },
+        "color": {
+          "paint": 90
+        },
+        "voice": {
+          "visual-part": 5,
+          "boolean": 2
+        }
+      },
+      "totalEvidenceBytes": 17536811,
+      "estimatedInputTokens": 929877
+    },
+    "render": {
+      "renderedAt": "2026-11-16T16:31:56.224875+00:00",
+      "specialistCacheBytes": 0,
+      "contractBytes": 3214154,
+      "renderPlanBytes": 852,
+      "outputBytes": 161570,
+      "estimatedInputTokens": 803752,
+      "durationMs": 27.93
+    }
+  },
+  "summaries": {
+    "componentName": "Button",
+    "defaultVariant": {
+      "id": "25:61",
+      "name": "Variant=default, Size=default, State=Default",
+      "variantProperties": {
+        "Variant": "default",
+        "Size": "default",
+        "State": "Default"
+      }
+    },
+    "variantAxes": {
+      "Variant": [
+        "default",
+        "outline",
+        "secondary",
+        "ghost",
+        "destructive",
+        "link"
+      ],
+      "Size": [
+        "default",
+        "xs",
+        "sm",
+        "lg",
+        "icon",
+        "icon-xs",
+        "icon-sm",
+        "icon-lg"
+      ],
+      "State": [
+        "Default",
+        "Hover",
+        "Focus",
+        "Disabled",
+        "Loading"
+      ]
+    },
+    "composition": {
+      "constitutive": 0,
+      "referenced": 0,
+      "decorative": 4,
+      "ambiguous": 0
+    },
+    "crossVariant": {
+      "sizeAxis": "Size",
+      "stateAxis": "State",
+      "dimensionAxes": [
+        "Size"
+      ]
+    }
+  },
+  "paths": {
+    "cachePath": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/.uspec-cache/button",
+    "stagedBasePath": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/.uspec-cache/button/button-_base.json",
+    "outputPath": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/components/button.md",
+    "contractPath": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/components/button.json",
+    "evidence": {
+      "api": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/.uspec-cache/button/button-evidence-api.json",
+      "structure": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/.uspec-cache/button/button-evidence-structure.json",
+      "color": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/.uspec-cache/button/button-evidence-color.json",
+      "voice": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/.uspec-cache/button/button-evidence-voice.json",
+      "renderer": "/Users/Chanathip.Ar/Documents/ChatGPT/Ai Hub Library/.uspec-cache/button/button-evidence-renderer.json"
+    }
+  }
+}

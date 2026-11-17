@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "schemaVersion": "1",
+    "componentSlug": "button",
+    "baseSourceHash": "sha256:1a03c59fd6790dd6a2e7b693da65a59ae329b7f82e43beb0ce31f27106ade7da",
+    "generatedAt": "2026-11-16T16:31:56.224875+00:00"
+  },
+  "data": {
+    "overviewParagraph": "Button is an action control with six visual variants and eight sizes. Its public behavior is expressed through disabled and loading props, with hover and focus handled as transient interaction states; optional built-in leading and trailing icons are independent. Structure is measured across every variant, size, and state, color treatments map to each visual variant, and assistive technology receives one button focus stop with disabled and busy semantics.",
+    "confidence": {
+      "api": "high",
+      "structure": "high",
+      "color": "high",
+      "voice": "high"
+    }
+  }
+}

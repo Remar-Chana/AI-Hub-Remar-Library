@@ -1,0 +1,15 @@
+{
+  "mcpProvider": "figma-mcp",
+  "environment": "codex",
+  "cliVersion": "0.3.3",
+  "fontFamily": "Inter",
+  "templateKeys": {
+    "screenReader": "2e6ec225a983cedefc1fad3b4f90aa5cff8409ca",
+    "colorAnnotation": "d0759c8311e67fb5cb558b5131e3305151c0e18e",
+    "anatomyOverview": "5bd8d6e97a2f40c9da99d25f536dfc074f923e17",
+    "apiOverview": "ace4a6f1ea00ab847b8c00c6a0a98ba2d8aac0a5",
+    "propertyOverview": "1279938f8c2fbf394cf2bc071d5c0fdc38a799f8",
+    "structureSpec": "5a06e8a19202ca7c0473b9b8758d66fc808d8d81",
+    "motionSpec": "7b82fa42d775b33d090dc2bbc7bc4d125e5d0986"
+  }
+}
